@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 30px auto;
+  max-width: 1000px;
+  background-color: white;
+  display: flex;
+
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+body {
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+  padding: 20px 0 28px 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.likeButton {
+  border: 0px none !important ;
+  width: 30px;
+}
+
+#lmbutton {
+  background-color: blue;
+  width: 120px;
+  border: 0px none !important ;
+  padding: 20px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.likeCounterStyle {
+  display: flex;
+  flex-direction: row;
+}
+.header-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.post-photo {
+  width: 40%;
+  height: 40%;
+}
+.post {
+  justify-content: center !important;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dcdcdc;
+  width: 400px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.name-tag {
+  font-weight: bolder !important;
+}
+.date-tag {
+  font-size: 10px;
+}
+.profile-pic {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+#post-image {
+  display: flex;
+  justify-content: center;
+}
+.post span {
+  font-size: 10px;
+}
+
+.post hr {
+  width: 95%;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper .post {
+  display: inline-flex;
+  justify-content: center;
+  margin: 20px;
+  margin-left: 65px;
+}
+
+button {
+  background-color: white;
+}
+#wrapper {
+  display: inline;
+}
+@media screen and (max-width: 768px) {
+  #wrapper .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  #lmbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #wrapper .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  header .logo {
+    justify-content: start;
+  }
+  header .center {
+    position: relative;
+    left: -20px;
+  }
+}
